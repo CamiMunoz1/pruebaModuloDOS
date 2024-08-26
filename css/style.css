@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #bae2fd;
+    background-size: cover;
+    color: #333;
+    padding-top: 70px;
+}
+
+.section {
+    padding: 60px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.hero-section {
+    padding: 100px 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.contact-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #51b0f0;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton{
+    color: rgb(255, 158, 174);
+}
+
+.contact-btn:hover {
+    background-color: #14bcff;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.row.justify-content-center {
+    margin-top: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+h5.card-title a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+h5.card-title a:hover {
+    color: #0056b3;
+}
+
+.mb-4 {
+    margin-bottom: 30px;
+}
+
+
+.skill-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.list-inline-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+}
+
+
+.card-img-container {
+    text-align: center;
+}
+
+.card-img-top {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#skills-section .card-img-container {
+    text-align: center;
+}
+
+#skills-section .card-img-top {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}

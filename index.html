@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Mi Portafolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Proyectos Previos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4">Bienvenidos a mi Portafolio</h1>
+            <p class="lead">Descubriendo nuevas experiencias en la programación con cada uno de sus desafiós del día a día </p>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center">Sobre Mí</h2>
+            <p class="text-center">Hola, mi nombre es Camila Muñoz. Soy ingeniera química industrial con 4 años de experiencia en el área farmacéutica.
+                A lo largo de mi carrera, he desarrollado habilidades analíticas y técnicas que me han permitido abordar desafíos complejos y encontrar soluciones efectivas en mi campo. Sin embargo, siempre he sentido una gran pasión por la tecnología y el desarrollo de software, lo que me llevó a embarcarme en una nueva aventura profesional.
+                Actualmente, estoy realizando un bootcamp de Desarrollador Full Stack Java, una experiencia que está marcando un antes y un después en mi carrera. Decidí dar este paso porque estoy fascinada con la capacidad de la programación para transformar ideas en soluciones concretas y funcionales.
+                Una de las áreas en las que estoy particularmente interesada es en cómo combinar mi experiencia en ingeniería química con mi nueva habilidad en desarrollo Full Stack Java. La química y la tecnología pueden converger en múltiples formas, como el desarrollo de aplicaciones para la gestión de datos experimentales, la automatización de procesos químicos, o incluso la creación de simulaciones y modelos interactivos para investigación.
+            </p>
+        </div>
+    </section>
+
+ <section id="skills-section" class="section bg-light">
+    <div class="container">
+        <h2 class="text-center">Habilidades</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-img-container">
+                        <img src="img/180891.png" class="card-img-top" alt="HTML">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">Conocimiento Básico en HTML</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-img-container">
+                        <img src="img/css-file-format-symbol_29600.png" class="card-img-top" alt="CSS">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">Conocimiento Básico en CSS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <div class="card-img-container">
+                        <img src="img/29582.png" class="card-img-top" alt="JavaScript">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">Conocimiento Básico en JavaScript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="text-center">Proyectos pasados</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="img/images.jfif" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="evaluacion 1/Evaluacion1.html">Biografía de DaVinci</a></h5>
+                            <p class="card-text">Breve Biografía de DaVinci.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="img/polynesia.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="pruebaSeisBootstrap/index.html">Página de Vuelos</a></h5>
+                            <p class="card-text">Una página de cotización de Vuelos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center">Contáctame</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Ingresa tu Nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Ingresa tu Correo Electronico" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Escribe tu Mensaje" required></textarea>
+                </div>
+                <button class="boton" type="submit" class="btn btn-primary"><a href="img/gato.jpg">Confirmar</a> </button>
+            </form>
+        </div>
+    </section>
+
+    <button id="contactBtn" class="contact-btn">Contáctame</button>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

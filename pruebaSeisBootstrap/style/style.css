@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.color-fondo {
+    background-color: #051B54;
+    color: white;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white !important;
+    text-align: center;
+}
+
+.btn-outline-success{
+    background-color: #FFFFFF33;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+.promo {
+    background-color: #40E0D0;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.promo-text {
+    color: black;
+}
+.promo img {
+    max-width: 40%;
+    border-radius: 8px;
+}
+.promo a {
+    color: blue;
+}
